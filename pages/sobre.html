@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <script src="../js/FormularioProj1.js"></script>
-    <link rel="stylesheet" href="../css/FormularioProj1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sobre.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>FALE CONOSCO</title>
+    <title>SOBRE</title>
 </head>
 <body>
     <!-- #menu de navegação da página :D -->
@@ -20,23 +19,14 @@
            </ul>
         </nav>
     </div>
-
     <div class="conteudo">
-        <form id="formulario" name="formulario">
-            <h1>Formulário de Cadastro</h1>
-            <div id="formulario">
-                Nome: <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
-                <br>
-                Email: <input type="email" name="email" id="email" placeholder="Digite seu Email" required><br>
-                <br>
-                Comentários: <br>
-                <textarea name="comentarios" id="comentarios" cols="30rows=10" placeholder="Comentarios" required></textarea><br>
-                <input type="submit" value="Enviar" onclick="pegarDados()">
-                <input type="reset" value="Apagar">     
-            </div>
-        </form>
+        <h1>Informações sobre o Autor</h1>
+        <p class="informacao">Neste site irão encontrar informações sobre serviços públicos de campinas.</p>
+        <p class="informacao">Caso tenha alguma dúvida, entre em contato pelo menu "FALE CONOSCO". </p>
+        <p class="informacao">Site desenvolvido por Alessandro Santos.</p>
+        <p class="informacao">Estudante de Análise e Desenvolvimento de Sitema no <a id="ifsp" href="https://portal.cmp.ifsp.edu.br/">IFSP</a>.</p>
+        <img id="autor-foto"src="../img/e936f062-0d99-4ad4-9f17-d1f1d0fd5a81.jpg" alt="autor-image">
     </div>
-
     <footer id="footer">
         <div id="footer-conteudo">
             <div id="direitos-autorais">
@@ -46,6 +36,6 @@
                 <p> Desenvolvido por Alessandro - &copy; 2020 Copyright</p>
             </div>
         </div>
-    </footer>
+    </footer>  
 </body>
 </html>
